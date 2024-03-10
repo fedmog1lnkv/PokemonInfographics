@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using LiveChartsCore.SkiaSharpView.Painting;
 using SkiaSharp;
 using LiveChartsCore.SkiaSharpView.VisualElements;
+using LiveChartsCore.Drawing;
 
 namespace PokemonInfographics.Presentation.ViewModels.Tabs
 {
@@ -23,7 +24,7 @@ namespace PokemonInfographics.Presentation.ViewModels.Tabs
         {
             Text = "Average stats",
             TextSize = 25,
-            Padding = new LiveChartsCore.Drawing.Padding(15),
+            Padding = new Padding(15),
             Paint = new SolidColorPaint(SKColors.DarkSlateGray)
         };
 
@@ -35,12 +36,11 @@ namespace PokemonInfographics.Presentation.ViewModels.Tabs
                 LabelsRotation = 0,
                 SeparatorsPaint = new SolidColorPaint(new SKColor(200, 200, 200)),
                 SeparatorsAtCenter = false,
-                TicksPaint = new SolidColorPaint(new SKColor(35, 35, 35)),
-                TicksAtCenter = true,
                 ForceStepToMin = true,
-                MinStep = 1
+                MinStep = 1,
             }
         };
+
 
         public BarChartTabViewModel(PokemonStatisticsInteractor pokemonStatisticsInteractor)
         {
@@ -51,54 +51,19 @@ namespace PokemonInfographics.Presentation.ViewModels.Tabs
             {
                 new ColumnSeries<double>
                 {
-                    Values = new double[] 
-                    { 
-                        averageStatistics.AverageHP, 
-                        averageStatistics.AverageAttack, 
-                        averageStatistics.AverageDefense, 
-                        averageStatistics.AverageSpecialAttack, 
-                        averageStatistics.AverageSpecialDefense, 
-                        averageStatistics.AverageSpeed 
+                    Values = new double[]
+                    {
+                        averageStatistics.AverageHP,
+                        averageStatistics.AverageAttack,
+                        averageStatistics.AverageDefense,
+                        averageStatistics.AverageSpecialAttack,
+                        averageStatistics.AverageSpecialDefense,
+                        averageStatistics.AverageSpeed
                     }
                 }
             };
-            /*
-            var barSeries = new ISeries[]
-            {
-                new ColumnSeries<double>
-                {
-                    Name = "Average HP",
-                    Values = new double[] { averageStatistics.AverageHP }
-                },
-                new ColumnSeries<double>
-                {
-                    Name = "Average Attack",
-                    Values = new double[] { averageStatistics.AverageAttack }
-                },
-                new ColumnSeries<double>
-                {
-                    Name = "Average Defense",
-                    Values = new double[] { averageStatistics.AverageDefense }
-                },
-                new ColumnSeries<double>
-                {
-                    Name = "Average Special Attack",
-                    Values = new double[] { averageStatistics.AverageSpecialAttack }
-                },
-                new ColumnSeries<double>
-                {
-                    Name = "Average Special Defense",
-                    Values = new double[] { averageStatistics.AverageSpecialDefense }
-                },
-                new ColumnSeries<double>
-                {
-                    Name = "Average Speed",
-                    Values = new double[] { averageStatistics.AverageSpeed }
-                }
-            };
-            */
 
-        BarChartSeries = barSeries;
+            BarChartSeries = barSeries;
         }
     }
 }

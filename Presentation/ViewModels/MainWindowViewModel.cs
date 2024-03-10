@@ -28,7 +28,7 @@ namespace PokemonInfographics.Presentation.ViewModels
         public MainWindowViewModel(PokemonStatisticsInteractor pokemonStatisticsInteractor)
         {
             _pokemonStatisticsInteractor = pokemonStatisticsInteractor;
-
+    
             Console.WriteLine("ViewModel created");
 
             PieChartTabViewModel = new PieChartTabViewModel(_pokemonStatisticsInteractor);

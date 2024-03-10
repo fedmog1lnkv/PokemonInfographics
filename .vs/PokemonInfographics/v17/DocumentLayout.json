@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|c:\\users\\fedor kuznetsov\\desktop\\pokemoninfographics\\presentation\\viewmodels\\tabs\\dashboardtabviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|solutionrelative:presentation\\viewmodels\\tabs\\dashboardtabviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\presentation\\views\\tabs\\dashboardtab.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|solutionrelative:presentation\\views\\tabs\\dashboardtab.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\presentation\\views\\tabs\\barcharttab.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|solutionrelative:presentation\\views\\tabs\\barcharttab.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|c:\\users\\fedor kuznetsov\\desktop\\pokemoninfographics\\presentation\\viewmodels\\tabs\\barcharttabviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|solutionrelative:presentation\\viewmodels\\tabs\\barcharttabviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\presentation\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|solutionrelative:presentation\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|c:\\users\\fedor kuznetsov\\desktop\\pokemoninfographics\\presentation\\views\\tabs\\piecharttab.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|solutionrelative:presentation\\views\\tabs\\piecharttab.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|c:\\users\\fedor kuznetsov\\desktop\\pokemoninfographics\\presentation\\viewmodels\\tabs\\piecharttabviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|solutionrelative:presentation\\viewmodels\\tabs\\piecharttabviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,78 +46,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DashboardTabViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\ViewModels\\Tabs\\DashboardTabViewModel.cs",
-              "RelativeDocumentMoniker": "Presentation\\ViewModels\\Tabs\\DashboardTabViewModel.cs",
-              "ToolTip": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\ViewModels\\Tabs\\DashboardTabViewModel.cs",
-              "RelativeToolTip": "Presentation\\ViewModels\\Tabs\\DashboardTabViewModel.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAADwvyAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T13:23:09.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BarChartTab.xaml",
-              "DocumentMoniker": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\Views\\Tabs\\BarChartTab.xaml",
-              "RelativeDocumentMoniker": "Presentation\\Views\\Tabs\\BarChartTab.xaml",
-              "ToolTip": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\Views\\Tabs\\BarChartTab.xaml",
-              "RelativeToolTip": "Presentation\\Views\\Tabs\\BarChartTab.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-10T13:12:37.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DashboardTab.xaml",
-              "DocumentMoniker": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\Views\\Tabs\\DashboardTab.xaml",
-              "RelativeDocumentMoniker": "Presentation\\Views\\Tabs\\DashboardTab.xaml",
-              "ToolTip": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\Views\\Tabs\\DashboardTab.xaml",
-              "RelativeToolTip": "Presentation\\Views\\Tabs\\DashboardTab.xaml",
+              "Title": "PieChartTab.xaml",
+              "DocumentMoniker": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\Views\\Tabs\\PieChartTab.xaml",
+              "RelativeDocumentMoniker": "Presentation\\Views\\Tabs\\PieChartTab.xaml",
+              "ToolTip": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\Views\\Tabs\\PieChartTab.xaml",
+              "RelativeToolTip": "Presentation\\Views\\Tabs\\PieChartTab.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-10T13:04:25.087Z",
+              "WhenOpened": "2024-03-10T13:35:12.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "Presentation\\ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeToolTip": "Presentation\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAAoAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T12:05:46.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "BarChartTabViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\ViewModels\\Tabs\\BarChartTabViewModel.cs",
               "RelativeDocumentMoniker": "Presentation\\ViewModels\\Tabs\\BarChartTabViewModel.cs",
               "ToolTip": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\ViewModels\\Tabs\\BarChartTabViewModel.cs",
               "RelativeToolTip": "Presentation\\ViewModels\\Tabs\\BarChartTabViewModel.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAADwvx0AAAArAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAACoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T12:35:43.35Z",
+              "WhenOpened": "2024-03-10T13:32:19.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAADEAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "PieChartTabViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\ViewModels\\Tabs\\PieChartTabViewModel.cs",
+              "RelativeDocumentMoniker": "Presentation\\ViewModels\\Tabs\\PieChartTabViewModel.cs",
+              "ToolTip": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\ViewModels\\Tabs\\PieChartTabViewModel.cs",
+              "RelativeToolTip": "Presentation\\ViewModels\\Tabs\\PieChartTabViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T12:38:21.129Z",
+              "WhenOpened": "2024-03-10T13:32:15.202Z",
               "EditorCaption": ""
             }
           ]

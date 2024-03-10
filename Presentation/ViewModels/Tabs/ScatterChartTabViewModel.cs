@@ -2,6 +2,7 @@
 using PokemonInfographics.Domain.Interactors;
 using LiveChartsCore;
 using LiveChartsCore.Defaults;
+using LiveChartsCore.Drawing;
 using System.Collections.Generic;
 using LiveChartsCore.SkiaSharpView;
 using LiveChartsCore.SkiaSharpView.Painting;
@@ -10,12 +11,21 @@ using System.Collections.ObjectModel;
 using LiveChartsCore.SkiaSharpView.Painting.Effects;
 using System.Windows.Controls;
 using LiveChartsCore.Kernel;
+using LiveChartsCore.SkiaSharpView.VisualElements;
 
 namespace PokemonInfographics.Presentation.ViewModels
 {
     public class ScatterChartTabViewModel : ViewModelBase
     {
         private readonly PokemonStatisticsInteractor _pokemonStatisticsInteractor;
+
+        public LabelVisual Title { get; set; } = new LabelVisual
+        {
+            Text = "Attack-Speed Generation Scatter",
+            TextSize = 25,
+            Padding = new Padding(15),
+            Paint = new SolidColorPaint(SKColors.DarkSlateGray)
+        };
 
         private static byte _opacity = 120;
 
@@ -65,7 +75,10 @@ namespace PokemonInfographics.Presentation.ViewModels
                 }
                 else
                 {
-                    pokemonsByGenerations[po.Generation] = new ObservableCollection<ObservablePoint>() { point };
+                    pokemonsByGenerations[po.Generation] = new ObservableCollection<ObservablePoint>()
+                    {
+                        point
+                    };
                 }
             }
 
