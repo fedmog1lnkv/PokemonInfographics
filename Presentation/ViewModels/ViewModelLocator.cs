@@ -12,6 +12,9 @@ namespace PokemonInfographics.Presentation.ViewModels
         public MainWindowViewModel MainWindowViewModel
             => App.ServiceProvider.GetRequiredService<MainWindowViewModel>();
 
+        public DashboardTabViewModel DashboardTabViewModel
+            => App.ServiceProvider.GetRequiredService<DashboardTabViewModel>();
+
         public PieChartTabViewModel PieChartTabViewModel
             => App.ServiceProvider.GetRequiredService<PieChartTabViewModel>();
 

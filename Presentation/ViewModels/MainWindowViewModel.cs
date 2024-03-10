@@ -18,22 +18,10 @@ namespace PokemonInfographics.Presentation.ViewModels
     {
         PokemonStatisticsInteractor _pokemonStatisticsInteractor;
 
-
-
+        public DashboardTabViewModel DashboardTabViewModel { get; }
         public PieChartTabViewModel PieChartTabViewModel { get; }
         public ScatterChartTabViewModel ScatterChartTabViewModel { get; }
         public PolarChartTabViewModel PolarChartTabViewModel { get; }
-
-
-        public PolarAxis[] AngleAxes { get; set; } = new PolarAxis[]
-        {
-            new PolarAxis
-            {
-                Labels = new[] { "HP", "Attack", "Defense", "Speed", "Generation"},
-                MinStep = 1,
-                ForceStepToMin = true
-            }
-        };
 
         public MainWindowViewModel(PokemonStatisticsInteractor pokemonStatisticsInteractor)
         {
@@ -44,6 +32,8 @@ namespace PokemonInfographics.Presentation.ViewModels
             PieChartTabViewModel = new PieChartTabViewModel(_pokemonStatisticsInteractor);
             ScatterChartTabViewModel = new ScatterChartTabViewModel(_pokemonStatisticsInteractor);
             PolarChartTabViewModel = new PolarChartTabViewModel(_pokemonStatisticsInteractor);
+            DashboardTabViewModel = new DashboardTabViewModel(PieChartTabViewModel, ScatterChartTabViewModel);
+
         }
     }
 }
