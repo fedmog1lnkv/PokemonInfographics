@@ -29,6 +29,30 @@ namespace PokemonInfographics.Domain.Interactors
             return typeStatistics;
         }
 
+        public AverageStatistic GetPokemonAverageStatistic()
+        {
+            var allPokemons = _pokemonRepository.GetAllPokemons();
+
+            int totalPokemons = allPokemons.Count();
+            double totalHP = allPokemons.Sum(pokemon => pokemon.HP);
+            double totalAttack = allPokemons.Sum(pokemon => pokemon.Attack);
+            double totalDefense = allPokemons.Sum(pokemon => pokemon.Defense);
+            double totalSpAtk = allPokemons.Sum(pokemon => pokemon.SpecialAttack);
+            double totalSpDef = allPokemons.Sum(pokemon => pokemon.SpecialDefense);
+            double totalSpeed = allPokemons.Sum(pokemon => pokemon.Speed);
+
+            return new AverageStatistic
+            {
+                AverageHP = totalHP / totalPokemons,
+                AverageAttack = totalAttack / totalPokemons,
+                AverageDefense = totalDefense / totalPokemons,
+                AverageSpecialAttack = totalSpAtk / totalPokemons,
+                AverageSpecialDefense = totalSpDef / totalPokemons,
+                AverageSpeed = totalSpeed / totalPokemons
+            };
+
+        }
+
         public List<ScatterDataPoint> GetScatterData()
         {
             var scatterData = new List<ScatterDataPoint>();

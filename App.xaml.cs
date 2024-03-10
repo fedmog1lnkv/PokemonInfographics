@@ -5,6 +5,7 @@ using PokemonInfographics.Domain.Interactors;
 using PokemonInfographics.Domain.Repositories;
 using PokemonInfographics.Infrastructure;
 using PokemonInfographics.Presentation.ViewModels;
+using PokemonInfographics.Presentation.ViewModels.Tabs;
 using System;
 using System.Windows;
 
@@ -49,6 +50,7 @@ namespace PokemonInfographics
 
             services.AddScoped<DashboardTabViewModel>();
             services.AddScoped<PieChartTabViewModel>();
+            services.AddScoped<BarChartTabViewModel>();
             services.AddScoped<ScatterChartTabViewModel>();
             services.AddScoped<PolarChartTabViewModel>();
 

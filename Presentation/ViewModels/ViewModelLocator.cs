@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using PokemonInfographics.Presentation.ViewModels.Tabs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +18,9 @@ namespace PokemonInfographics.Presentation.ViewModels
 
         public PieChartTabViewModel PieChartTabViewModel
             => App.ServiceProvider.GetRequiredService<PieChartTabViewModel>();
+
+        public BarChartTabViewModel BarChartTabViewModel
+            => App.ServiceProvider.GetRequiredService<BarChartTabViewModel>();
 
         public ScatterChartTabViewModel ScatterChartTabViewModel
             => App.ServiceProvider.GetRequiredService<ScatterChartTabViewModel>();

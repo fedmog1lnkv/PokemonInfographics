@@ -26,7 +26,11 @@
             <TabItem Header="Pie chart">
                 <tabs:PieChartTab DataContext="{Binding PieChartTabViewModel}" />
             </TabItem>
-            
+
+            <TabItem Header="Bar chart">
+                <tabs:BarChartTab DataContext="{Binding BarChartTabViewModel}" />
+            </TabItem>
+
             <TabItem Header="Scatter chart">
                 <tabs:ScatterChartTab DataContext="{Binding ScatterChartTabViewModel}" />
             </TabItem>

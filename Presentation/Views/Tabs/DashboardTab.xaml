@@ -18,17 +18,14 @@
 
 
         <lvc:PieChart Grid.Column="0" Grid.Row="0"
-            Series="{Binding PieChartSeries}">
-        </lvc:PieChart>
+            Series="{Binding PieChartSeries}" />
 
-        <lvc:PolarChart Grid.Column="1" Grid.Row="0"
-            Series="{Binding PolarChartSeries}"
-            AngleAxes="{Binding AngleAxes}">
-        </lvc:PolarChart>
+        <lvc:CartesianChart Grid.Column="1" Grid.Row="0"
+            Series="{Binding BarChartSeries}"
+            XAxes="{Binding BarChartXAxes}" />
 
         <lvc:CartesianChart Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2"
-            Series="{Binding ScatterChartSeries}">
-        </lvc:CartesianChart>
+            Series="{Binding ScatterChartSeries}" />
 
     </Grid>
 </UserControl>

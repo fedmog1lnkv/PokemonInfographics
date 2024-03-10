@@ -6,6 +6,7 @@ using LiveChartsCore.SkiaSharpView;
 using LiveChartsCore.SkiaSharpView.Drawing.Geometries;
 using LiveChartsCore.SkiaSharpView.Painting;
 using PokemonInfographics.Domain.Interactors;
+using PokemonInfographics.Presentation.ViewModels.Tabs;
 using SkiaSharp;
 using System;
 using System.Collections.Generic;
@@ -20,6 +21,7 @@ namespace PokemonInfographics.Presentation.ViewModels
 
         public DashboardTabViewModel DashboardTabViewModel { get; }
         public PieChartTabViewModel PieChartTabViewModel { get; }
+        public BarChartTabViewModel BarChartTabViewModel { get; }
         public ScatterChartTabViewModel ScatterChartTabViewModel { get; }
         public PolarChartTabViewModel PolarChartTabViewModel { get; }
 
@@ -30,10 +32,10 @@ namespace PokemonInfographics.Presentation.ViewModels
             Console.WriteLine("ViewModel created");
 
             PieChartTabViewModel = new PieChartTabViewModel(_pokemonStatisticsInteractor);
+            BarChartTabViewModel = new BarChartTabViewModel(_pokemonStatisticsInteractor);
             ScatterChartTabViewModel = new ScatterChartTabViewModel(_pokemonStatisticsInteractor);
             PolarChartTabViewModel = new PolarChartTabViewModel(_pokemonStatisticsInteractor);
-            DashboardTabViewModel = new DashboardTabViewModel(PieChartTabViewModel, ScatterChartTabViewModel);
-
+            DashboardTabViewModel = new DashboardTabViewModel(PieChartTabViewModel, BarChartTabViewModel, ScatterChartTabViewModel);
         }
     }
 }

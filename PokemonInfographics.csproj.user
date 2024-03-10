@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Presentation\Views\Tabs\BarChartTab.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Presentation\Views\Tabs\DashboardTab.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -19,6 +22,9 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="Presentation\Views\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation\Views\Tabs\BarChartTab.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Presentation\Views\Tabs\DashboardTab.xaml">
