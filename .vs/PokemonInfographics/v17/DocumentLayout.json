@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\presentation\\views\\tabs\\polarcharttab.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|solutionrelative:presentation\\views\\tabs\\polarcharttab.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|c:\\users\\fedor kuznetsov\\desktop\\pokemoninfographics\\presentation\\viewmodels\\tabs\\polarcharttabviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|solutionrelative:presentation\\viewmodels\\tabs\\polarcharttabviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|c:\\users\\fedor kuznetsov\\desktop\\pokemoninfographics\\presentation\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|solutionrelative:presentation\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|c:\\users\\fedor kuznetsov\\desktop\\pokemoninfographics\\presentation\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|solutionrelative:presentation\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|c:\\users\\fedor kuznetsov\\desktop\\pokemoninfographics\\presentation\\views\\tabs\\polarcharttab.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|solutionrelative:presentation\\views\\tabs\\polarcharttab.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|c:\\users\\fedor kuznetsov\\desktop\\pokemoninfographics\\presentation\\views\\tabs\\polarcharttab.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|solutionrelative:presentation\\views\\tabs\\polarcharttab.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|c:\\users\\fedor kuznetsov\\desktop\\pokemoninfographics\\presentation\\viewmodels\\viewmodellocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|solutionrelative:presentation\\viewmodels\\viewmodellocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|c:\\users\\fedor kuznetsov\\desktop\\pokemoninfographics\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\domain\\interactors\\pokemonstatisticsinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2576D8-E8C1-40B2-BDB7-E0D6E84F8FC3}|PokemonInfographics.csproj|solutionrelative:domain\\interactors\\pokemonstatisticsinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,84 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PolarChartTab.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\Views\\Tabs\\PolarChartTab.xaml.cs",
-              "RelativeDocumentMoniker": "Presentation\\Views\\Tabs\\PolarChartTab.xaml.cs",
-              "ToolTip": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\Views\\Tabs\\PolarChartTab.xaml.cs",
-              "RelativeToolTip": "Presentation\\Views\\Tabs\\PolarChartTab.xaml.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAADwvxIAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T05:53:45.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ViewModelLocator.cs",
-              "DocumentMoniker": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\ViewModels\\ViewModelLocator.cs",
-              "RelativeDocumentMoniker": "Presentation\\ViewModels\\ViewModelLocator.cs",
-              "ToolTip": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\ViewModels\\ViewModelLocator.cs",
-              "RelativeToolTip": "Presentation\\ViewModels\\ViewModelLocator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T05:51:54.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "Presentation\\ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\ViewModels\\MainWindowViewModel.cs*",
-              "RelativeToolTip": "Presentation\\ViewModels\\MainWindowViewModel.cs*",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T05:50:19.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\Views\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Presentation\\Views\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\Views\\MainWindow.xaml",
-              "RelativeToolTip": "Presentation\\Views\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-10T05:50:17.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PolarChartTab.xaml",
-              "DocumentMoniker": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\Views\\Tabs\\PolarChartTab.xaml",
-              "RelativeDocumentMoniker": "Presentation\\Views\\Tabs\\PolarChartTab.xaml",
-              "ToolTip": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\Views\\Tabs\\PolarChartTab.xaml",
-              "RelativeToolTip": "Presentation\\Views\\Tabs\\PolarChartTab.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-10T05:48:46.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PolarChartTabViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\ViewModels\\Tabs\\PolarChartTabViewModel.cs",
-              "RelativeDocumentMoniker": "Presentation\\ViewModels\\Tabs\\PolarChartTabViewModel.cs",
-              "ToolTip": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\ViewModels\\Tabs\\PolarChartTabViewModel.cs",
-              "RelativeToolTip": "Presentation\\ViewModels\\Tabs\\PolarChartTabViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T05:48:02.98Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -138,15 +46,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADMAAABBAAAA",
+              "DocumentIndex": 1,
+              "Title": "PolarChartTabViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\ViewModels\\Tabs\\PolarChartTabViewModel.cs",
+              "RelativeDocumentMoniker": "Presentation\\ViewModels\\Tabs\\PolarChartTabViewModel.cs",
+              "ToolTip": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\ViewModels\\Tabs\\PolarChartTabViewModel.cs",
+              "RelativeToolTip": "Presentation\\ViewModels\\Tabs\\PolarChartTabViewModel.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAwCgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T05:46:31.509Z",
+              "WhenOpened": "2024-03-10T05:56:47.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PolarChartTab.xaml",
+              "DocumentMoniker": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\Views\\Tabs\\PolarChartTab.xaml",
+              "RelativeDocumentMoniker": "Presentation\\Views\\Tabs\\PolarChartTab.xaml",
+              "ToolTip": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Presentation\\Views\\Tabs\\PolarChartTab.xaml",
+              "RelativeToolTip": "Presentation\\Views\\Tabs\\PolarChartTab.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-10T05:57:05.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PokemonStatisticsInteractor.cs",
+              "DocumentMoniker": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Domain\\Interactors\\PokemonStatisticsInteractor.cs",
+              "RelativeDocumentMoniker": "Domain\\Interactors\\PokemonStatisticsInteractor.cs",
+              "ToolTip": "C:\\Users\\Fedor Kuznetsov\\Desktop\\PokemonInfographics\\Domain\\Interactors\\PokemonStatisticsInteractor.cs",
+              "RelativeToolTip": "Domain\\Interactors\\PokemonStatisticsInteractor.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAADwvzsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T05:59:37.374Z",
               "EditorCaption": ""
             }
           ]

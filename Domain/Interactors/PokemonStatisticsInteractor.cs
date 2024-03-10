@@ -51,7 +51,17 @@ namespace PokemonInfographics.Domain.Interactors
 
         }
 
+        public List<String> GetPokemonNames()
+        {
+            var allPokemons = _pokemonRepository.GetAllPokemons();
+            return new List<string>(allPokemons.Select(x => x.Name));
+        }
 
+        public PokemonModel GetPokemonByName(string name)
+        {
+            var allPokemons = _pokemonRepository.GetAllPokemons();
+            return allPokemons.FirstOrDefault(x => x.Name == name);
+        }
 
         private void IncreaseTypeCount(IDictionary<string, int> typeStatistics, string type)
         {
