@@ -11,5 +11,14 @@ namespace PokemonInfographics.Presentation.ViewModels
     {
         public MainWindowViewModel MainWindowViewModel
             => App.ServiceProvider.GetRequiredService<MainWindowViewModel>();
+
+        public PieChartTabViewModel PieChartTabViewModel
+            => App.ServiceProvider.GetRequiredService<PieChartTabViewModel>();
+
+        public ScatterChartTabViewModel ScatterChartTabViewModel
+            => App.ServiceProvider.GetRequiredService<ScatterChartTabViewModel>();
+
+        public PolarChartTabViewModel PolarChartTabViewModel
+            => App.ServiceProvider.GetRequiredService<PolarChartTabViewModel>();
     }
 }

@@ -20,4 +20,10 @@
     <Folder Include="Infrastructure\Mappers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Presentation\Views\Tabs\PolarChartTab.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
 </Project>

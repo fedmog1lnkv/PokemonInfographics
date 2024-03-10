@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:vm="clr-namespace:PokemonInfographics.Presentation.ViewModels"
         xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
+        xmlns:tabs="clr-namespace:PokemonInfographics.Presentation.Views.Tabs"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
 
@@ -17,31 +18,19 @@
     </Window.DataContext>
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <!-- Добавляем вторую строку -->
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
+        <TabControl>
+            <TabItem Header="Pie chart">
+                <tabs:PieChartTab DataContext="{Binding PieChartTabViewModel}" />
+            </TabItem>
+            
+            <TabItem Header="Scatter chart">
+                <tabs:ScatterChartTab DataContext="{Binding ScatterChartTabViewModel}" />
+            </TabItem>
 
-        <lvc:PieChart Grid.Column="0" Grid.Row="0"
-            Series="{Binding PieChartSeries}">
-        </lvc:PieChart>
+            <TabItem Header="Polar chart">
+                <tabs:PolarChartTab DataContext="{Binding PolarChartTabViewModel}" />
+            </TabItem>
 
-        <lvc:PolarChart Grid.Column="1" Grid.Row="0"
-            Series="{Binding PolarChartSeries}"
-            AngleAxes="{Binding AngleAxes}">
-        </lvc:PolarChart>
-
-        <lvc:CartesianChart Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2"
-            Series="{Binding ScatterChartSeries}">
-        </lvc:CartesianChart>
-
-
-
-
+        </TabControl>
     </Grid>
 </Window>

@@ -46,6 +46,9 @@ namespace PokemonInfographics
 
             // Регистрация ViewModel и интерактора с указанием их зависимостей
             services.AddScoped<MainWindowViewModel>();
+            services.AddScoped<PieChartTabViewModel>();
+            services.AddScoped<ScatterChartTabViewModel>();
+            services.AddScoped<PolarChartTabViewModel>();
             services.AddTransient<PokemonStatisticsInteractor>();
         }
 
