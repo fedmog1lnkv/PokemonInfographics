@@ -6,5 +6,5 @@
              xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <lvc:CartesianChart Series="{Binding ScatterChartSeries}" />
+    <lvc:CartesianChart Series="{Binding ScatterChartSeries}" XAxes="{Binding XAxes}" YAxes="{Binding YAxes}" LegendPosition="Right" />
 </UserControl>
