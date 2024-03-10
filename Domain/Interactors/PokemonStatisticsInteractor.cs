@@ -29,6 +29,30 @@ namespace PokemonInfographics.Domain.Interactors
             return typeStatistics;
         }
 
+        public List<ScatterDataPoint> GetScatterData()
+        {
+            var scatterData = new List<ScatterDataPoint>();
+
+            var allPokemons = _pokemonRepository.GetAllPokemons();
+
+            foreach (var pokemon in allPokemons)
+            {
+                var point = new ScatterDataPoint
+                {
+                    Attack = pokemon.Attack,
+                    Speed = pokemon.Speed,
+                    Generation = pokemon.Generation
+                };
+
+                scatterData.Add(point);
+            }
+
+            return scatterData;
+
+        }
+
+
+
         private void IncreaseTypeCount(IDictionary<string, int> typeStatistics, string type)
         {
             if (string.IsNullOrEmpty(type)) return;
@@ -40,8 +64,6 @@ namespace PokemonInfographics.Domain.Interactors
             {
                 typeStatistics[type] = 1;
             }
-
-
         }
     }
 }
