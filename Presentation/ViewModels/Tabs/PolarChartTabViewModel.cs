@@ -40,7 +40,6 @@ namespace PokemonInfographics.Presentation.ViewModels
             }
         };
 
-
         public LabelVisual Title { get; set; } =
         new LabelVisual
         {
@@ -113,6 +112,10 @@ namespace PokemonInfographics.Presentation.ViewModels
 
         private void DrawPolarChart()
         {
+            if (string.IsNullOrEmpty(NameOfSelectedPokemon))
+            {
+                return;
+            }
             var pokemon = _pokemonStatisticsInteractor.GetPokemonByName(NameOfSelectedPokemon);
             _polarChartValues.Clear();
             _polarChartValues.Add(new ObservableValue(pokemon.HP));
@@ -124,15 +127,22 @@ namespace PokemonInfographics.Presentation.ViewModels
 
         private void Search()
         {
-            if (string.IsNullOrWhiteSpace(SearchText))
+            try
             {
-                PokemonNamesList = new ObservableCollection<string>(_allPokemonNames);
+                if (string.IsNullOrWhiteSpace(SearchText))
+                {
+                    PokemonNamesList = new ObservableCollection<string>(_allPokemonNames);
+                }
+                else
+                {
+                    string searchTerm = SearchText.ToLower();
+                    var filteredNames = _allPokemonNames.Where(name => name.ToLower().Contains(searchTerm)).ToList();
+                    PokemonNamesList = new ObservableCollection<string>(filteredNames);
+                }
             }
-            else
+            catch (Exception)
             {
-                string searchTerm = SearchText.ToLower();
-                var filteredNames = _allPokemonNames.Where(name => name.ToLower().Contains(searchTerm)).ToList();
-                PokemonNamesList = new ObservableCollection<string>(filteredNames);
+                Console.WriteLine("Error while searching");
             }
         }
 

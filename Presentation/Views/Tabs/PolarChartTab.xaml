@@ -8,13 +8,13 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*" />
-            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
         <lvc:PolarChart Grid.Column="0" Series="{Binding PolarChartSeries}" AngleAxes="{Binding AngleAxes}" RadiusAxes="{Binding RadialAxes}" Title="{Binding Title}" />
 
-        <ListBox ItemsSource="{Binding PokemonNamesList}" SelectedItem="{Binding NameOfSelectedPokemon}" Margin="5" Grid.Column="1">
+        <ListBox ItemsSource="{Binding PokemonNamesList}" SelectedItem="{Binding NameOfSelectedPokemon}" Margin="0,38,0,0" Grid.Column="1">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <TextBlock Text="{Binding}" />
@@ -22,7 +22,7 @@
             </ListBox.ItemTemplate>
         </ListBox>
 
-        <TextBox Margin="5" VerticalAlignment="Top" Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1">
+        <TextBox Margin="0,5,0,0" VerticalAlignment="Top" Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1">
             <TextBox.Resources>
                 <Style TargetType="TextBox">
                     <Setter Property="BorderThickness" Value="1"/>
